@@ -104,52 +104,7 @@ const LandingPage = () => {
       </section>
 
       {/* ===== PROJECTS SECTION ===== */}
-      <section id="projects" className="py-16 px-6 text-center">
-        <h3 className="text-2xl md:text-3xl font-semibold mb-4">
-          Featured Projects
-        </h3>
-        <p className="max-w-2xl mx-auto mb-10">
-          A selection of my recent work showcasing different skills and
-          approaches.
-        </p>
-
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {[1, 2, 3].map((i) => (
-            <div
-              key={i}
-              className="bg-white rounded-xl shadow-md overflow-hidden flex flex-col"
-            >
-              <div className="bg-[#C9A888] h-40 w-full" />
-              <div className="p-6 flex-1 flex flex-col justify-between">
-                <div>
-                  <h4 className="font-semibold text-lg mb-2">Project Name {i}</h4>
-                  <p className="text-sm mb-4">
-                    Description of the project goes here. Built with modern
-                    technologies.
-                  </p>
-                </div>
-                <ul className="flex justify-center gap-4 mt-auto">
-                  <li>
-                    <a href="#" className="text-[#B08968] hover:underline">
-                      Live Demo
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-[#B08968] hover:underline">
-                      GitHub
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-[#B08968] hover:underline">
-                      Figma
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      
 
       {/* ===== CONTACT SECTION ===== */}
       <section
@@ -157,7 +112,7 @@ const LandingPage = () => {
         className="bg-[#F1E7DC] text-center py-16 px-6 flex flex-col items-center"
       >
         <h3 className="text-2xl md:text-3xl font-semibold mb-4">
-          Let’s Work Together
+          Let's Work Together
         </h3>
         <p className="max-w-xl mb-6">
           Ready to bring your ideas to life? Let's discuss your next project.
@@ -181,11 +136,6 @@ const LandingPage = () => {
           </li>
         </ul>
       </section>
-
-      {/* ===== FOOTER ===== */}
-      <footer className="bg-[#B08968] text-white text-center text-sm py-6">
-        © 2025 Collins Alvin. Built with ♡ and ☕
-      </footer>
     </main>
   );
 };
